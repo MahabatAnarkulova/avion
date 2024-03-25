@@ -1,0 +1,270 @@
+.head{
+    text-align: center;
+    background: #2A254B;
+color: #fff;
+height: 25px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px; 
+}
+.header .avi{
+    font-size: 27px;
+    color: #2A254B;
+    font-weight: 400;
+}
+.header-text{
+    display: flex;
+    gap: 44px;
+    list-style: none;  
+}
+.list-div{
+    padding-top:30px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.list-the{
+  font-size: 40px;  
+  font-weight: 400;
+  padding-left: 30px;
+}
+.list-text{
+    padding: 25px 40px;
+    font-size:18px;
+    line-height: 25px;
+}
+.demosion{
+    font-size: 18px;
+    padding-left: 30px;
+}
+.wits{
+    display: flex;
+    line-height: 30px;
+    gap: 35px;
+}
+.header-btns{
+    display: flex;
+    gap: 15px;
+}
+.amount{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+gap: 40%;
+margin-right: 90px;
+}
+.text{
+    display: flex;
+    gap: 10px;
+    padding: 10px 0px;
+}
+.en{
+padding: 10px;
+font-size: 20px;
+}
+.number{
+ display: flex;
+ gap: 20px; 
+ background: #F9F9F9; 
+width: 90px;
+padding: 10px 10px;
+}
+.Add{
+    background: #2A254B;
+width: 110px;
+color: #fff;
+height: 50px;
+padding: 14px 14px;
+margin-top: 8px;
+font-size: 17px;
+}
+.youtex{
+    font-size: 35px;
+    padding: 70px;
+}
+.might{
+ padding-top: 25px;
+ display: flex;  
+ justify-content:space-around;
+}
+.images{
+    font-size: 19px;
+}
+.migbtn{
+    background: #F9F9F9;
+font-size: 15px;
+margin-left: 40%;
+ width: 15%;
+ height: 35px;
+}
+.block-text h3{
+    padding: 100px;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 400;
+}
+.blocks{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.block1 h4{
+    font-weight: 400;
+    font-size: 24px;
+}
+.block1{
+    font-size: 18px;
+    line-height: 20px;
+}
+.join{
+    padding: 15%;
+    text-align: center;
+}
+.join-text h1{
+    font-size: 45px;
+    font-weight: 400;
+}
+.join-text{
+    font-size: 20px;
+    padding:50px;
+}
+.join input{
+    background: #F9F9F9;
+width: 50%;
+height: 45px;
+border: none;
+outline: none;
+}
+.Sign{
+    background: #2A254B;
+color: #F9F9F9;
+width:10%;
+height: 45px;
+}
+.foterler{
+    background: #2A254B;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+color: #fff;
+padding: 40px;
+font-size: 17px;
+}
+.avi{
+    font-size: 26px;
+}
+.footer-avi{
+    line-height:30px;
+}
+.menu{
+    line-height: 30px;
+    font-weight: 400;
+}
+.menu p{
+    font-size: 20px;
+}
+.array{
+    border: 1px solid #4E4D93;
+    width: 95%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.copy{
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 25px;
+}
+@media(max-width:390px){
+    .header-text{
+       display: none;
+    }
+    .header{
+   gap: 35px;
+    }
+    .head{
+       background: #2A254B;
+       height: 47px; 
+       text-align: start; 
+       padding-left: 10px;
+       font-size: 15px;
+       padding: 10px;
+    }
+   .list-div{
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+       align-content: start;
+   }
+   .limg img{
+   width: 100%;
+   }
+   .texser{
+       width: 110%;
+       padding: 20px;
+   }
+   .list-the{
+       font-size: 30px;
+   }
+   .en{
+       display: none;
+   }
+   .amount{
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+       align-content: start;  
+       gap: 5px;
+   }
+   .number,
+   .Add{
+       width: 100%;
+       text-align: center;
+   }
+   .might{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       align-content: start; 
+       gap: 30px;    
+   }
+   .images,
+   .images img{
+       width: 110%;
+       font-size: 17px;
+   }
+   .youtex{
+       font-size: 25px;
+   }
+   .migbtn{
+       width: 40%;
+      margin-left: 28%;
+       text-align: center;  
+   }
+   .blocks{
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+       align-content: start;  
+       gap: 5px;
+       margin: 20px;
+   }
+   .block-text h3{
+   font-size: 25px;
+   }
+   .block1 h4 {
+       font-size: 20px;
+   }
+   .block1 p{
+       font-size: 15px;
+   }
+   .footer{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       align-content: start; 
+       gap: 20px;
+   }
+   .link{
+width: 40%;
+   }
+   }
