@@ -1,0 +1,87 @@
+
+@media(max-width:390px){
+   .header-text{
+      display: none;
+   }
+   .header{
+  gap: 35px;
+   }
+   .head{
+      background: #2A254B;
+      height: 47px; 
+      text-align: start; 
+      padding-left: 10px;
+      font-size: 15px;
+      padding: 10px;
+   }
+  .list-div{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      align-content: start;
+  }
+  .limg img{
+  width: 100%;
+  }
+  .texser{
+      width: 110%;
+      padding: 20px;
+  }
+  .list-the{
+      font-size: 30px;
+  }
+  .en{
+      display: none;
+  }
+  .amount{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      align-content: start;  
+      gap: 5px;
+  }
+  .number,
+  .Add{
+      width: 100%;
+      text-align: center;
+  }
+  .might{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-content: start; 
+      gap: 30px;    
+  }
+  .images,
+  .images img{
+      width: 110%;
+      font-size: 17px;
+  }
+  .youtex{
+      font-size: 25px;
+  }
+  .migbtn{
+      width: 40%;
+     margin-left: 28%;
+      text-align: center;  
+  }
+  .blocks{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      align-content: start;  
+      gap: 5px;
+      margin: 20px;
+  }
+  .block-text h3{
+  font-size: 25px;
+  }
+  .block1 h4 {
+      font-size: 20px;
+  }
+  .block1 p{
+      font-size: 15px;
+  }
+  .footer{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-content: start; 
+      gap: 15px;
+  }
+  }
