@@ -1,0 +1,211 @@
+.checkout {
+  height: 40px;
+  background-color: #2a254b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkout p {
+  color: aliceblue;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.checkout .fa-solid {
+  color: white;
+}
+.link,
+.icons {
+  display: flex;
+  gap: 40px;
+}
+.link a {
+  font-size: 16px;
+}
+.icons {
+  gap: 15px;
+}
+.header_links {
+  background: #ffff;
+  height: 80px;
+  border: 1px solid li;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header_links h2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #22202e;
+}
+
+/* section-1 */
+.section-1 {
+  padding: 40px 80px;
+  background: #f9f9f9;
+  display: flex;
+}
+.section-1 .img-table {
+  padding-right: 50px;
+}
+h1,
+h2 {
+  color: #2a254b;
+  font-size: 36px;
+  font-weight: 400;
+}
+.section-1 h2 {
+  font-size: 24px;
+  padding: 15px 0;
+  border-bottom: 1px solid #ebe8f4;
+}
+.width .top {
+  padding-bottom: 15px;
+}
+.width {
+  display: flex;
+  gap: 55px;
+}
+.width .center {
+  padding: 0 55px;
+  border-right: 2px solid #ebe8f4;
+  border-left: 2px solid #ebe8f4;
+}
+/* .product p {
+  word-spacing: px;
+} */
+.table-theme .product {
+  padding: 15px 0 20px 0;
+}
+.dimension {
+  padding: 40px 0 20px 0;
+}
+.btn-1,
+.save {
+  padding: 10px 15px;
+  background: #ffff;
+}
+.btn-1 span {
+  color: #ebe8f4;
+  padding: 15px;
+}
+
+.add,
+.save {
+  padding: 15px 30px;
+  font-size: 16px;
+}
+.add {
+  background: #2a254b;
+  color: #ffffff;
+  margin-right: 10px;
+}
+.btns {
+  margin-top: 50px;
+}
+.table-info {
+  margin-top: 40px;
+}
+/* section-2 */
+.section-2 h1 {
+  margin: 3rem 0 2rem 0;
+}
+h3 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #2a254b;
+}
+.section-2 .sofa {
+  padding: 15px 0;
+}
+
+.tables,
+.block,
+.section-4 {
+  display: flex;
+  justify-content: space-around;
+}
+.btn {
+  padding: 15px 25px;
+  color: #2a254b;
+  background: #f9f9f9;
+  font-size: 16px;
+  margin: 3rem 0 3rem 34rem;
+}
+/* section-3 */
+.section-3 .makes {
+  text-align: center;
+  font-size: 25px;
+  word-spacing: 1px;
+  margin: 3rem 0;
+}
+.blocks {
+  width: 250px;
+  height: 200px;
+  background: #f9f9f9;
+  padding: 40px 10px 30px 30px;
+}
+.block,
+.benefit {
+  margin: 4rem;
+}
+.blocks img,
+h3 {
+  padding-bottom: 10px;
+}
+/* section-4 */
+input {
+  padding: 10px 20px;
+  outline: 0;
+  border: none;
+  background: #f9f9f9;
+}
+.section-4 button {
+  background: #2a254b;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.section-4 h1 {
+  padding-bottom: 25px;
+  font-size: 31px;
+}
+.section-4 p {
+  margin-bottom: 17rem;
+}
+/* footer */
+.footer {
+  background: #2a254b;
+}
+.footer .social-links .link {
+  display: flex;
+  gap: 5px;
+}
+.footer-card {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0 20px 0;
+}
+.footer-card h4 {
+  padding-bottom: 10px;
+  font-size: 16px;
+  color: #ffffff;
+}
+.footer-card p,
+.end {
+  font-size: 14px;
+  color: #ffffff;
+  padding-bottom: 5px;
+}
+.line {
+  width: 71rem;
+  margin-left: 4rem;
+  border-bottom: 2px solid #4e4d93;
+}
+.footer-card h2 {
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+.end {
+  padding: 20px 0 20px 4rem;
+}
